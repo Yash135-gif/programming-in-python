@@ -1,3 +1,7 @@
+# Only underscore(_) allowed in special special characters to create variables.
+# del variablename          # for deletation 
+
+
 # print("Hello world","welcome to my home",345,455)                                        # PEP8 = Rule site
 # a=20                                                            
 # print(a)
@@ -167,7 +171,7 @@
 # fset2=frozenset({10,20,'neeraj',30})
 # print(id(fset1),id(fset2))
 
-str1="Python"
+# str1="Python"
 # print(str1.index('P'))
 # print(str1.index('o'))
 # print(str1.index('P',0,1))
@@ -192,7 +196,122 @@ str1="Python"
 # print(t.index(10,1,5))
 # print(t.index(20,1,+4))
 
- 
+# x=10
+# y=20
+# print(type(x)) 
+# print(type(y))
+
+# z=x+y
+# print(type(z))
+
+# z=x-y
+# print(type(z))
+
+# z=x*y
+# print(type(z))
+
+# z=x/y
+# print(type(z))
+
+# ---------------------------------------------------
+
+# x=10.5
+# y=20.5
+# print(type(x)) 
+# print(type(y))
+
+# z=x+y
+# print(type(z))
+
+# z=x-y
+# print(type(z))
+
+# z=x*y
+# print(type(z))
+
+# z=x/y
+# print(type(z))
+
+# -------------------------------------------------------------
+
+# x=10+3j
+# y=20+5j
+# print(type(x)) 
+# print(type(y))
+
+# z=x+y
+# print(type(z))
+
+# z=x-y
+# print(type(z))
+
+# z=x*y
+# print(type(z))
+
+# z=x/y
+# print(type(z))
+
+# ------------------------------------------------------------
+
+# s1="python"
+# print(s1)
+# x=input("enter your name: ")
+# print(x)
+# print(type(x))
+# print(id(x))
+# print(max(s1))
+# print(min(s1))
+# print(len(s1))
+
+# str1="I aom Adioomaonvu"
+# print(str1.lower())
+# print(str1.upper())
+# print(str1.index('z'))      # Nahi mila to error da deta ha aur code execute hone sa rok deta ha.
+# print(str1.find('z'))       # Nahi mila to error nahi deta -1 deta ha aur code execute hone sa nahi rokta.
+# print(str1.split('o'))
+# print(str1.split('o',1))
+# l1=['neeraj','kumar','patel']
+# print(','.join(l1))
+# print(''.join(l1))
+# print(''.join(l1))
+# print(str1.count('o'))
+
+       #    list ma , separation pa ek object raheta hai  (important).
+
+   #    -------------------------------------------- list ---------------------------------------------------------
+
+# x=[10]
+# y=[10]
+# print(id(x),id(y))          #  different address because its mutable.
+
+# my_list=[10,10.5,'neeraj']
+# print(my_list)
+# print(type(my_list))
+
+# append() method
+# x=(10,20,30,40)
+# my_list.append(x)
+# print(my_list)
+# a='neeraj'
+# my_list.extend(a)
+# print(my_list)
+# my_list.insert(0,'neeraj')
+# print(my_list)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
