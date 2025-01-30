@@ -33,8 +33,8 @@ a="yash the coder"
 # print(l1)
 # l1.extend(a)
 # print(l1)
-l1.insert(2,5)
-print(l1)
+# l1.insert(2,5)
+# print(l1)
 
 
 

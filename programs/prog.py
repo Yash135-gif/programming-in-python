@@ -298,6 +298,255 @@
 # my_list.insert(0,'neeraj')
 # print(my_list)
 
+# l1=[10,20,20.5,2,8,6,10]
+# l1.sort()
+# print(l1)
+
+# l1.reverse()
+# print(l1)
+
+# l1.sort(reverse=True)
+# print(l1)
+
+# l1.pop()
+# print(l1)
+
+# l1.remove(20.5)
+# print(l1)
+
+# # l1.clear()
+# # print(l1)
+
+# # del l1
+# # print(l1)
+
+# l2=l1.copy()
+# print(l1,l2)
+# print(id(l1),id(l2))
+
+# print(l1.count(10))
+# print(l1.index(10))
+# print(l1.index(10,2))
+
+# import sys
+# x=''                                               # kon kitna fast ha change karna ka liya
+# x1=[]
+# x2=()                                   
+# print(sys.getsizeof(x))                
+# print(sys.getsizeof(x1))
+# print(sys.getsizeof(x2))
+
+# functions in tuple ----------------------------
+
+# t1=(10,20,30,40,50)
+# print(t1)
+# print(max(t1))
+# print(min(t1))
+# print(len(t1))
+# print(sum(t1))
+# print(id(t1))
+# print(type(t1))
+
+# dict --------------------------------------------------------------------
+
+d1={'name':'yash','age':20,'quali':'BCA'}
+
+# function
+
+# print(max(d1))
+# print(min(d1))
+# print(len(d1))
+# print(type(d1))
+# print(id(d1))
+
+# Methods
+
+# d1.clear()
+# print(d1)
+
+# d2=d1.copy()
+# print(id(d1),id(d2))
+
+# l1=['name','email','contact']
+# d2=dict.fromkeys(l1)
+# print(d2)
+
+# d3=dict.fromkeys(l1,"Nacho")
+# print(d3)
+
+# print(d1.keys())
+# print(d1.values())
+# print(d1.items())
+# d1.popitem()
+# d1.pop("name")
+# print(d1)
+
+# print(d1.pop('name'))
+# print(d1)
+
+# d1.setdefault('name','rahul')
+# print(d1)
+# d1.setdefault('new','guest')
+# print(d1)
+# d2={'yoo':32}
+# d2.update(d1)
+# print(d2)
+# print(d1)
+
+#    set
+ 
+# my_set={"Yash",10,20,"vansh",30,40,"draw"}
+# print(my_set)
+# print(type(my_set))
+
+s1={'neeraj','raj','rahul'}
+s2={10,20,30,40.5,50}
+
+#   functions 
+
+# print(max(s1),max(s2))
+# print(min(s1),min(s2))
+# print(type(s1),type(s2))
+# print(id(s1),id(s2))
+
+    # Methods
+
+# s1.clear()
+# print(s1)
+
+# print(s1.pop())
+# print(s1)
+
+# s2.remove(50)
+# print(s2)
+
+# s2.remove(50)
+# print(s2)
+  
+#   Remove gives an error 
+# update for iterable object
+
+  
+
+# s3={1,2,3,4,5,6}
+# s4={3,4,7,8}
+# print(s3.union(s4))
+# print(s3)
+# print(s4)
+
+# print(s3.intersection(s4))
+# print(s3)
+# print(s4)
+
+# s3.intersection_update(s4)
+# print(s3)
+# print(s4)
+
+# print(s3.difference(s4))
+# print(s3)
+# print(s4)
+
+
+
+s='neeraj'
+d={"name":"yash", "age":20}
+x=frozenset(s)
+# print(x)
+# print(type(x))
+
+# y=frozenset(d)
+# print(y)
+# print(type(y))
+
+# z=x.copy()
+# print(z)
+# print(id(x),id(z))
+
+# a={1,2,3}
+# b={1,2,3,4,5,6,7,8}
+# print(a.issubset(b))
+# print(b.issuperset(a))
+
+# fronzeset-----------------------
+
+# str='this is a string'
+# x=frozenset(str)
+# print(x)
+ 
+# l=['this','nacho','yoyo']
+# y=frozenset(l)
+# print(y)
+
+# co=x.copy()
+# print(co)
+
+# print(id(co),id(x))
+
+# a={1,2,3,4,5}
+# b={1,3}
+# A=frozenset(a)
+# B=frozenset(b)
+# print(A)
+# print(B)
+
+
+
+
+# a=int(input("enter the number"))
+# if (a%2==0):
+#     print("even")
+# else:
+#     print("odd")
+
+# x=int(input("enter the number"))
+# y=int(input("enter the number"))
+# if (x>y):
+#     print("x is bigger than y")
+# else:
+#     print(f'{y} is greater')
+
+# a=int(input("enter your age"))
+# if x>=18:
+#     print("you are eligible for vote")
+# else:
+#     print("Not eligible for vote")
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
 
 
 
