@@ -490,7 +490,7 @@ x=frozenset(s)
 # print(B)
 
 
-
+#    Control statement ---------------------------------------
 
 # a=int(input("enter the number"))
 # if (a%2==0):
@@ -510,7 +510,45 @@ x=frozenset(s)
 #     print("you are eligible for vote")
 # else:
 #     print("Not eligible for vote")
-    
+
+    # Comma(,) hatana wala ------------------------------------
+
+# n=10
+# i=1
+# while i<=10:
+#     if(i<n):
+#         print(i,end=",")
+#     else:
+#         print(i)
+
+#     i=i+1
+
+# print("hello")
+ 
+#   to count the digits in a number --------------------
+
+# n=24567
+# count=0
+# while n>0:
+#   count=count+1
+#   n=n//10
+# print(count)
+# print(n)
+
+
+
+#   for loop ----------------------------------
+
+# n="neeraj"
+# for i in n:
+#     print(i)
+
+# n=50
+# x=range(2,n+1,2)
+# print(tuple(x))
+# y=range(1,n+1,2)
+# print(tuple(y))
+
 
 
 
