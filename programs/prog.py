@@ -549,9 +549,102 @@ x=frozenset(s)
 # y=range(1,n+1,2)
 # print(tuple(y))
 
+#    eval input dete time sab kuch batana ha 
+
+# x=eval(input("enter the input"))
+# print(x)
+# print(type(x))
+
+#   Pattern printing 
+
+# i=1
+# n=5
+# while i<=5:
+#     print("*"*i)
+#     i=i+1
+
+# n=int(input("enter the number"))
+# i=1
+# while(i<=n):
+#     print(" "*(n-i)+"*"*i)
+#     i=i+1
+
+
+# n=int(input("enter the number"))
+# i=1
+# while(i<=n):
+#     print(" "*(n-i)+"* "*i)
+#     i=i+1
+
+# n=int(input("enter the rows"))
+# i=n
+# while(i>=1):
+#     print("*"*i+" "*(n-i))
+#     i=i-1
+
+
+# n=int(input("enter the rows"))
+# i=n
+# while(i>=1):
+#     print(" "*(n-i) +" *"*i)
+#     i=i-1
+
+
+# n=int(input('enter the rows'))
+# i=1
+# while(i<=n):
+#     print("*"*i)
+#     i=i+1
+# while(i>0):
+#     print("*"*i)
+#     i=i-1
+
+
+# Calculator 
+   
+# while True:
+#     print("press 1 for add\n press 2 for substract\n press 3 for multiplication\n press 1 for division\n press 5 for Off")
+#     n=int(input("enter the operation you want to perform"))
+#     if(n==1):
+#        x=int(input("enter first number"))
+#        y=int(input("enter second number"))
+#        z=x+y
+#        print(f'Addition of {x} and {y} is {z}')
+#     elif(n==2):
+#        x=int(input("enter first number"))
+#        y=int(input("enter second number"))
+#        z=x-y
+#        print(f'Addition of {x} and {y} is {z}')
+#     elif(n==3):
+#        x=int(input("enter first number"))
+#        y=int(input("enter second number"))
+#        z=x*y
+#        print(f'Multiplication of {x} and {y} is {z}')
+
+#     elif(n==4):
+#        x=int(input("enter first number"))
+#        y=int(input("enter second number"))
+#        z=x/y
+#        print(f'division of {x} and {y} is {z}')
+#     elif(n==5):
+#         break
+#     else:
+#         print("please enter valid number")
+
+#   LCM
+
+# x=int(input("enter first number"))
+# y=int(input("enter second number"))
+# big=max(x,y)
+# while True:
+#     if big%6==0 and big%8==0:
+#         print(big)
+#         break
+#     big=big+1
 
 
 
+  
 
 
 

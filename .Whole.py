@@ -605,14 +605,15 @@ b={3,6,7,8}
 # x=range(1,n+1,2)
 # print(list(x))
 
-n=input("enter the string")
-es=""
-l=len(n)
-for i in range(l-1,-1,-1):
-    es=es+n[i]
-print(es)
+# n=input("enter the string")
+# es=""
+# l=len(n)
+# for i in range(l-1,-1,-1):
+#     es=es+n[i]
+# print(es)
 
-if(es==n):
-    print("palindrome")
-else:
-    print("not")
+# if(es==n):
+#     print("palindrome")
+# else:
+#     print("not")
+
