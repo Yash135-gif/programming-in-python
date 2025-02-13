@@ -642,6 +642,77 @@ x=frozenset(s)
 #         break
 #     big=big+1
 
+#    Function --------------------------------------------------------------------
+
+#   Positional argument 
+
+def add(x,y):
+    return x+y
+
+# z=add(4,5)
+# print(z)
+
+# ------------------------------------------
+
+# def add(x,y):
+#     return x+y
+
+# z=add(a=4,b=5)
+# print(z)
+
+# print(dir(add))
+
+
+# def add(x,y):
+#     return x+y
+    
+# print(add(4,5))
+
+# def add(x,y,z):
+#     return x+y+z
+
+# x=add()
+# print(x)
+
+
+# def add(*n):
+
+#  print(n)
+
+# def sum(n):
+#     print(n)
+#     sum=0
+#     for i in n:
+#         sum=sum+i
+
+#     return sum
+
+
+    
+# x=eval(input("enter the data"))
+# print(sum(x))
+
+
+def show_my_details(**n):
+   print(n)
+   for k,v in n.items():
+       print(f'my {k} is {v}')
+
+
+x=eval(input("enter the data"))
+print(x)
+show_my_details(**x)
+
+
+
+   
+
+
+
+
+
+
+
 
 
   

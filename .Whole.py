@@ -617,3 +617,96 @@ b={3,6,7,8}
 # else:
 #     print("not")
 
+# n=eval(input("enter the number"))
+# i=1
+# while(i<=n):
+#     print(i)
+#     i=i+1
+# print("hello",end=" ")
+# print("he")
+
+  
+# x=1
+# i=1
+# while(x<n):
+#     x=2*i
+#     print(x)
+#     i=i+1
+# print('hello')
+
+# i=1
+# while(i<=n):
+
+#     if(i<n):{
+#         print(i,end=",")
+#     }
+#     else:{
+#         print(i)
+#     }
+#     i=i+1
+ 
+# digit=0
+# while(n>0):
+#     digit=digit+1
+#     n=n//10
+# print(digit)
+# print(n)
+   
+
+#    yoo -----------------------------------------------
+
+
+# n=152
+# x=n
+# y=n
+# digit=0
+# while(n>0):
+#     digit=digit+1
+#     n=n//10
+# print(digit)
+# sum=0
+# while(x>0):
+#     ld=x%10
+#     sum=sum+ld**digit
+#     x=x//10
+# if(y==sum):
+#     print("the number is armstrong")
+
+# else:{
+#     print("no armstrong")
+# }
+
+# def add(x,y):
+#     print("value of x = ",x)
+#     print("value of y = ",y)
+#     return x+y
+# n=eval(input("enter the number"))
+# m=eval(input("enter the number"))
+# x=add(y=n,x=m)
+# print(x)
+
+
+# def add(x=2,y=2,z=2):
+#     return x+y+z
+
+# print(add(2,3,4))
+
+# def sum(*n):
+#   print(n)
+#   print(type(n))
+#   sum=0
+#   for i in n:
+#     sum=sum+i
+#   return sum
+
+# print(sum(2,3,4))
+
+# def sum(*n):
+#     sum=0
+#     for i in n:
+#         for x in i:
+#             sum=sum+x
+#     return sum
+# p=eval(input("enter the tuple"))
+# print(sum(p))
+   
