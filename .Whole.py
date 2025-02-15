@@ -709,4 +709,83 @@ b={3,6,7,8}
 #     return sum
 # p=eval(input("enter the tuple"))
 # print(sum(p))
-   
+
+#   palindrome number ------------------------------------------------
+
+# n=eval(input("enter the number"))
+# rv=0
+# c=n
+# while(n>0):
+#     rv=rv*10+n%10
+#     n=n//10
+# if(c==rv):
+#     print("the given number is palindrome")
+
+# else:
+#     print("the given number is not a palindrome number")
+
+#   Armstrong -------------------------
+
+# count=0
+# n=153
+# x=n
+# y=n
+# while(n>0):
+#     count=count+1
+#     n=n//10
+# sum=0
+# while(x>0):
+#     t=x%10
+#     sum=sum+t**count
+#     x=x//10
+
+# if(y==sum):
+#     print("the given number is armstrong")
+# else:
+#     print("not a armstrong number")
+
+#   numbers horizontally ----------------------------------------
+#  
+# n=10
+# i=1
+# while(i<=10):
+#     if(i<10):
+#         print(i,end=",")
+#     else:
+#         print(i)
+#     i=i+1
+
+
+#    sum  of numbers ---------------------------------------------
+
+# n=10
+# i=1
+# sum=0
+# while(i<=10):
+#     sum=sum+i
+#     i=i+1
+# print(sum)
+
+#  even  
+
+# n=20
+# i=1
+# while(i<=20):
+#      if(i%2==0):
+#         print(i)
+#      else:
+#           pass
+#      i=i+1
+
+#  even odd 
+
+# n=19
+# i=1
+# # while(x<n-1):
+# #     x=2*i
+# #     print(x)
+# #     i=i+1
+# while(x<n):
+#     x=2*i-1
+#     print(x)
+#     i=i+1

@@ -693,15 +693,49 @@ def add(x,y):
 # print(sum(x))
 
 
-def show_my_details(**n):
-   print(n)
-   for k,v in n.items():
-       print(f'my {k} is {v}')
+# def show_my_details(**n):
+#    print(n)
+#    for k,v in n.items():
+#        print(f'my {k} is {v}')
 
 
-x=eval(input("enter the data"))
-print(x)
-show_my_details(**x)
+# x=eval(input("enter the data"))
+# print(x)
+# show_my_details(**x)
+
+
+#   Harshad number ----------------------------------------------
+
+# n=18
+# rv=0
+# y=n
+# while(n>0):
+#    x=n%10
+#    rv=rv+x
+#    n=n//10
+
+
+# if(y%rv==0):
+#     print("harshad bhai")
+
+# else:
+#     print("not harshad bhai")
+
+   
+
+# n="aeiou"
+# m="uoiea"
+# x=len(n)
+# y=len(m)
+# def anagram():
+#     if(x!=y):
+#         print("not a angram")
+#         break
+#     while()
+
+   
+
+
 
 
 
