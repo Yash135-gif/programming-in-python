@@ -789,3 +789,480 @@ b={3,6,7,8}
 #     x=2*i-1
 #     print(x)
 #     i=i+1
+
+
+# a="abcd"
+# for i in a:
+#     x=ord(i)+4
+#     y=chr(x)
+#     print(y,end="")
+
+# n="madam"
+# if(n==n[::-1]):
+#     print("palindrome")
+
+# x=range(1,5)
+# print(list(x))
+# y=range(-10,5)
+# print(tuple(y))
+
+# n=20
+# x=range(2,n+1,2)
+# print(list(x))
+
+# y=range(1,n+1,2)
+# print(tuple(y))
+
+# z=range(2,n+1,2)
+# print(z)
+
+# n="madsihotiam"
+# x=''
+# l=len(n)
+# for i in range(l-1,-1,-1):
+#     x=x+n[i]
+
+# if(x==n):
+#     print("palindrome")
+# else:
+#     print("not")
+
+# n=10
+# i=1
+# while(i<=10):
+#     if(i==6):
+#         i=i+1
+#         pass
+#     print(i)
+#     i=i+1
+
+# n=eval(input("enter the value"))
+# print(n)
+# print(type(n))
+# x="string"
+# y=5*x
+# print(y)
+
+# n=5
+# i=5
+# while(i<=n):
+#     print(' '*(n-i)+i*'* ')
+#     i=i+1
+
+
+# while(i>0):
+#     print(' '*(n-i)+i*'* ')
+#     i=i-1
+
+# n=5
+# i=1
+# while(i<=n):
+#     print(i*'*')
+#     i=i+1
+
+# j=n-1
+# while(j>0):
+#     print(j*'*')
+#     j=j-1
+
+# n=5
+# i=1
+# while(i<=5):
+#     print((n-i)*" "+i*'*')
+#     i=i+1
+# j=n-1
+# while(j>0):
+#     print((n-j)*" "+ j*"*")
+#     j=j-1
+
+# n=5
+# i=1
+# while(i<=5):
+#     print(i*"*")
+#     i=i+1
+# j=n-1
+# while(j>0):
+#     print((n-j)*" "+j*"*")
+#     j=j-1
+
+# n=5
+# i=1
+# while(i<=5):
+#     print((n-i)*" "+ i*"*")
+#     i=i+1
+# j=n-1
+# while(j>0):
+#     print(j*"*")
+#     j=j-1
+
+# n=5
+# i=1
+# while(i<=5):
+#     print((n-i)*" "+ i*"* ")
+#     i=i+1
+# j=n-1
+# while(j>0):
+#     print((n-j)*" "+j*"* ")
+#     j=j-1
+
+#    Calculator --------------------------------------------------
+
+# while True:
+#     print("1.for add\n 2.for sub\n 3.for multiply\n 4.for division\n 5.for Stop")
+#     n=eval(input("enter the value"))
+#     p=(1,2,3,4)
+#     if n in p:
+#         x=eval(input("enter the number1"))
+#         y=eval(input("enter the number2"))
+
+#         if n==1:
+#             z=x+y
+#             print(z)
+
+#         elif n==2:
+#             z=x-y
+#             print(z)
+        
+#         elif n==3:
+#             z=x*y
+#             print(z)
+        
+#         elif n==4:
+#             z=x/y
+#             print(z)
+        
+#     elif n==5:
+#             break
+    
+#     else:
+#         print("invalid number")
+
+# n=6
+# m=8
+# j=max(n,m)
+
+
+# while True:
+#     if(j%n==0 and j%m==0):
+#         break
+#     j=j+1
+# print(j)
+
+# l=["the","trop","bro"]
+# print(' '.join(l))
+
+# s="this is a string"
+# print(s.split('a'))
+
+# Factorial of a number -----------------------------------------------
+
+# n=6
+# i=1
+# f=1
+# while(i<=n):
+#     f=f*i
+#     i=i+1
+# print(f)
+
+#   number of vovels and consonenents in string -----------------------------
+
+# s="aeiou"
+# l=len(s)
+# i=0
+# t=('a','e','i','o','u','A','E','I','O','U')
+# vovels=0
+# consonents=0
+# while(i<l):
+#     if s[i] in t:
+#         vovels=vovels+1
+       
+#     else:
+#         consonents=consonents+1
+#     i=i+1
+
+
+# print(f'the total vovels is {vovels}')
+# print(f'the total consonents is {consonents}')
+
+# l=[10,20,30,40,50]
+# ll=len(l)
+# i=0
+# while(i<ll):
+#     l[i]=l[i]+5
+#     i=i+1
+# print(l)
+
+# s="this is a string"
+# l=s.split()
+# print(l)
+
+#  swapping without variable --------------------------------------------
+
+# a=5
+# b=6
+# a,b=b,a
+# print(a,b)
+
+#   swapping with third variable ---------------------------------
+
+# a=eval(input("enter first number"))
+# b=eval(input("enter second number"))
+
+# temp=a
+# a=b
+# b=temp
+# print(b,a)
+
+# area of triangle ----------------------------
+
+# b=10
+# h=20
+# print((1*b*h)/2)
+
+# area of square -------------------------------
+
+# side=10
+# print(side*side)
+
+# square root of number -----------------------
+
+# n=144
+# i=1
+# while True:
+#     if(n==i*i):
+#         print(i)
+#         break
+#     i=i+1
+
+# for loops questions -----------------------------------------------
+
+# x=range(1,11)
+# for i in x:
+#     print(i)
+
+# n=5
+# for i in range(1,11):
+#     print(f'{n} * {i} = {n*i}')
+
+# l=[10,20,30,40,50]
+# for i in l:
+#     print(i)
+
+# n=2385098
+# count=0
+# while(n>0):
+#     count=count+1
+#     n=n//10
+# print(count)
+
+# Armstrong number -------------------------------------
+
+# n=153
+# x=n
+# y=n
+# count=0
+# sum=0
+# while(n>0):
+#     count=count+1
+#     n=n//10
+# while(x>0):
+#     m=x%10
+#     sum=sum+m**count
+#     x=x//10
+# if(sum==y):
+#     print(f'the numer {y} is armstrong')
+# else:
+#     print(f'the number {y} is not a armstrong number')
+
+# s="string"
+# l=len(s)
+# x=''
+# for i in range(l-1,-1,-1):
+#     x=x+s[i]
+# print(x)
+
+#  How many even or odd in a collection 
+
+# l=[1,2,3,4,5,6,7]
+# odd=0
+# even=0
+# for i in l:
+#     if (i%2==0):
+#         even=even+1
+#     else:
+#         odd=odd+1
+# print(f'even is {even}')
+# print(f'odd is {odd}')
+
+# n=10
+# for i1 in range(1,n+1):
+#     a=True
+
+#     for i2 in range(2,i1):
+#         if(i1%i2==0): 
+#           a=False
+#           break
+#     if(a==True):
+#         print(i1,end=' ')
+
+#   except prime numbers print -----------------------   (imp)
+
+# n=12
+# for i1 in range(1,n+1):
+#     a=True
+#     if(i1==1):
+#         print(i1,end=" ")
+#         continue
+#     for i2 in range(2,i1):
+#         if(i1%i2==0):
+#            a=False
+#            break
+#     if(a==False):
+#         print(i1,end=" ")
+
+    # fibonacci series with for loop --------------------------------------
+
+# n=10
+# f=0
+# s=1
+# print(f,end=" ")
+# print(s,end=" ")
+# for i in range(1,n-1,1):
+#     n=f+s
+#     print(n,end=" ")
+#     f=s
+#     s=n
+
+#   fibonacci series with while loop --------------------------------------
+
+# n=10
+# f=0
+# s=1
+# i=1
+# print(f)
+# print(s)
+# while(i<=(n-2)):
+#     n=f+s
+#     print(n)
+#     f=s
+#     s=n
+#     i=i+1
+
+# month="january"
+# mdect={"january":31,"february":28,"march":30,"april":21,}
+# if month in mdect:
+#     print(f'{month} has this no of days {mdect[month]}')
+# else:
+#     print("invalid month name")
+
+# d={
+#     "name":"yash",
+#     "class":10
+
+# }
+# print(d["name"])
+
+#   Harshad number ----------------------------------
+
+# n=19
+# x=n
+# sum=0
+# while(n>0):
+#   y=n%10
+#   sum=sum+y
+#   n=n//10
+
+# if(x%sum==0):
+#     print("harshad numberr")
+# else:
+#     print("not")
+
+#   spy number ------------------------------------------------ 
+
+# n=112
+# x=n
+# y=n
+# sum=0
+# pro=1
+# while(n>0):
+#     a=n%10
+#     sum=sum+a
+#     n=n//10
+# while(x>0):
+#     b=x%10
+#     pro=pro*b
+#     x=x//10
+# if(sum==pro):
+#     print("the number is spy number")
+# else:
+#     print("the number is not a spy number")
+
+#    peterson number -----------------------------------------------------
+
+# n=145
+# x=n
+# total=0
+# while(n>0):
+#     a=n%10
+#     i=1
+#     factorial=1
+#     while(i<=a):
+#         factorial=factorial*i
+#         i=i+1
+#     total=total+factorial
+#     n=n//10
+
+# if(x==total):
+#     print("piterson")
+# else:
+#     print("not")
+
+#   Neon --------------------------------------------------------
+
+# n=12
+# sq=n*n
+# sum=0
+# while(sq>0):
+#     a=sq%10
+#     sum=sum+a
+#     sq=sq//10
+
+# if(n==sum):
+#     print("noen")
+# else:
+#     print("not")
+
+  
+
+# def add(x,y):
+#     " this function is for addition of numbers"
+#     return x+y
+# z=add(4,5)
+# print(add.__doc__) 
+
+# def add(*n):
+#     sum=0
+#     for i in n:
+#        sum=sum+i
+#     return sum
+
+
+# x=eval(input("enter"))
+# y=add(*x)
+# print(y)
+
+# def show(**n):
+#     print(n)
+ 
+# y=eval(input("enter"))
+# x=show(**y)
+# print(x)
+
+# l=["the","best","in","the"]
+# x=' '.join(l)
+# print(x)
+# y=x.split()
+# print(y)
+
+
+
