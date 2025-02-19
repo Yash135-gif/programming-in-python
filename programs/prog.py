@@ -733,14 +733,125 @@ def add(x,y):
 #         break
 #     while()
 
-   
-
-
-
-
 
    
 
+# def squ(x):
+#     if(x%2==0):
+#         return x+2
+        
+#     else:
+#         return x+1
+# t=(1,2,3,4,5,6,7,8,9,10)
+# res=map(squ,t)
+# print(list(res))
+
+
+
+# def add(x,y,z):
+#  return x+y+z
+
+
+# l1=[2,4,6]
+# l2=[1,2,3]
+# l3=[4,5,6,7,8]
+
+# res=map(add,l1,l2,l3)
+# print(list(res))
+
+# l1=[2,4,6]
+# l2=[1,2,3]
+
+# def p(x,y):
+#     return x**y
+
+# res=map(p,l1,l2)
+# print(list(res))
+
+l1=[-1,2,3,-4,5,6,-7,8]
+# def even(x):
+#     if(x%2==0):
+#         return x
+# ans=filter(even,l1)
+# print(tuple(ans))
+
+# def even(x):
+#     if(x%2==0):
+#         return "even"
+#     else:
+#         return "odd"
+# ans=map(even,l1)
+# print(tuple(ans))
+
+
+# def even(x):
+#     if(x%2!=0):
+#         return x
+# ans=filter(even,l1)
+# print(tuple(ans))
+   
+# def even(x):
+#     if (x%2==0):
+#         return "even"
+# ans=filter(even,l1)
+# print(list(ans))
+
+
+# def even(x):
+#     if(x>0):
+#         return x
+# ans=filter(even,l1)
+# print(tuple(ans))
+
+# def even(x):
+#     if(x<0):
+#         return x
+# ans=filter(even,l1)
+# print(tuple(ans))
+
+# l1=['neeraj','rahul','raj','jai']
+# def check(x):
+#     if(len(x)<=3):
+#         return x
+# ans=filter(check,l1)
+# print(list(ans))
+
+# l1=[2,15,6,18,10]
+
+# import functools
+
+# def mx(x,y):
+#     if(x<y):
+#         return y
+#     else:
+#         return x
+# ans=functools.reduce(mx,l1)
+# print(ans)
+
+# def min(x,y):
+#     if(x>y):
+#         return y
+#     else:
+#         return x
+# ans=functools.reduce(mx,l1)
+# print(ans)
+   
+# def sm(x,y):
+#     return x+y
+    
+# ans=functools.reduce(sm,l1)
+# print(ans)
+   
+# l=["shivendra","yash","vansh","jatin"]
+# def mxname(x,y):
+#     if(len(x)==len(y)):
+#         return x
+#     elif(len(x)>len(y)):
+#         return x
+#     else:
+#         return y
+# ans=functools.reduce(mxname,l)
+# print(ans)
 
 
 

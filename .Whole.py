@@ -791,6 +791,13 @@ b={3,6,7,8}
 #     i=i+1
 
 
+# n=20
+# i=1
+# while(i<=n):
+#     if(i%2!=0):
+#         print(i)
+#     i=i+1
+
 # a="abcd"
 # for i in a:
 #     x=ord(i)+4
@@ -874,6 +881,7 @@ b={3,6,7,8}
 # while(j>0):
 #     print((n-j)*" "+ j*"*")
 #     j=j-1
+
 
 # n=5
 # i=1
@@ -1264,5 +1272,158 @@ b={3,6,7,8}
 # y=x.split()
 # print(y)
 
+d={"name":"yash","values":"yash"}
+# print(d.values())
+
+# print(d.keys())
+
+# print(d.items())
+# d.setdefault("fame","jadoo")
+# print(d)
+
+# d2={}
+# d2.update(d)
+# print(d2)
+
+# print(d.pop("name"))
+# print(d)
+
+# s1={28,39,49}
+# s1.update([1,2,3,4])
+# print(s1)
+# s1.discard(28)
+# print(s1)
+# s1.discard(28)
+# print(s1)
+
+#    Anagram program ------------------------------------------
+
+# s1="python"
+# s2="nohtjk"
+# def anagram(s1,s2):
+#     if(len(s1)!=len(s2)):
+#         return "not"
+    
+#     count1=0
+#     count2=0
+    
+#     for i in range(len(s1)):
+#         char=s1[i]
+    
+        
+#         for j in range(len(s1)):
+#             if(char==s1[j]):
+#                 count1=count1+1
+            
+#         for j in range(len(s2)):
+#             if(char==s2[j]):
+#                 count2=count2+1
+
+#     if(count1==count2):
+#         return "yes"
+#     else:
+#         return "not"
+
+# x=anagram(s1,s2)
+# print(x)
+
+#    -------------------------------------------------------------------
+
+# def is_anagram(s1,s2):
+#     if(len(s1)!=len(s2)):
+#         return "not"
+    
+#     count1=0
+#     count2=0
+#     for i in range(len(s1)):
+#         char=s1[i]
+
+#         for j in range(len(s1)):
+#             if(char==s1[j]):
+#                 count1=count1+1
+#         for j in range(len(s2)):
+#             if(char==s2[j]):
+#                 count2=count2+1
+#     if(count1==count2):
+#         return "yes"
+#     else:
+#         return "no"
+    
+# s1="python"
+# s2="nohtyp"
+# x=is_anagram(s1,s2)
+# print(x)
+
+#   ------------------------------------------------------------------------
+
+# n=eval(input("enter the number"))
+# def add(x):
+#     return x+1
+
+# ans=map(add,n)
+# print(list(ans)).
+
+
+# def see(x):
+#     a=''
+#     a=x
+#     return a
+
+    
+
+# inp1=eval(input("enter the list"))
+# inp2=eval(input("enter the divisor"))
+
+# print(inp1)
+# print(inp2)
+# ans=map(see,inp)
+# print(list(ans))
+
+# def to_str(x):
+#     return str(x)
+
+# ans=map(to_str,inp)
+# print(list(ans))
+
+# def mul(x):
+#     return x*2
+# ans=map(mul,inp)
+# print(list(ans))
+
+# def to_int(x):
+#     return int(x)
+# ans=map(to_int,inp)
+# print(list(ans))
+
+# def big(x):
+#     return x.upper()
+
+
+# ans=map(big,inp)
+# print(list(ans))
+
+# def check(x):
+#     if(x%2==0):
+#         return "even"
+#     else:
+#         return "odd"
+
+# ans=map(check,inp)
+# print(list(ans))
+
+# def add(x,y):
+#     return x+y
+# ans=map(add,inp1,inp2)
+# print(list(ans))
+
+# def divi(x):
+#     return (x//inp2, x%inp2)
+# ans=map(divi,inp1)
+# print(list(ans))
+
+# def sq(x):
+#     return x**2
+# ans=map(sq,inp1)
+# print(list(ans))
 
 
