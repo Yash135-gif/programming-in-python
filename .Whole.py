@@ -1426,4 +1426,68 @@ d={"name":"yash","values":"yash"}
 # ans=map(sq,inp1)
 # print(list(ans))
 
+# l=[-1,2,3,-4,5,6,-7,8]
+
+# def even(x):
+#     if(x%2==0):
+#         return "even"
+# ans=filter(even,l)
+# print(list(ans))
+
+# def show(x):
+#     if(x%2==0):
+#         return "even"
+#     else:
+#         return "odd"
+# ans=filter(show,l)
+# print(list(ans))
+
+# def ne(x):
+#     if(x<0):
+#         return x
+# ans=filter(ne,l)
+# print(list(ans))
+
+# l=["yashA","youknow","YashB","perfect"]
+# def five(x):
+#     if(len(x)<=5):
+#         return x
+# ans=filter(five,l)
+# print(list(ans))
+
+from functools import reduce
+l=[2,15,6,18,18,10]
+# def my_name(x,y):
+#     if(x==y):
+#         return  x
+#     elif (x>y):
+#         return x
+#     else:
+#         return y
+# ans=reduce(my_name,l)
+# print(ans)
+
+# l=["yashA","youknow","Peter Parker","John Cena"]
+# def big(x,y):
+#     if(len(x)==len(y)):
+#         return x
+#     elif(len(x)>len(y)):
+#         return x
+#     else:
+#         return y
+# ans=reduce(big,l)
+# print(ans)
+
+def sm(x,y):
+    a=x+y
+    a=
+
+     
+
+     
+
+
+
+
+
 

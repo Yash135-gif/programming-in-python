@@ -768,7 +768,8 @@ def add(x,y):
 # res=map(p,l1,l2)
 # print(list(res))
 
-l1=[-1,2,3,-4,5,6,-7,8]
+# l1=[-1,2,3,-4,5,6,-7,8]
+l=[1,2,3,4,5]
 # def even(x):
 #     if(x%2==0):
 #         return x
@@ -818,7 +819,7 @@ l1=[-1,2,3,-4,5,6,-7,8]
 
 # l1=[2,15,6,18,10]
 
-# import functools
+import functools
 
 # def mx(x,y):
 #     if(x<y):
@@ -835,11 +836,11 @@ l1=[-1,2,3,-4,5,6,-7,8]
 #         return x
 # ans=functools.reduce(mx,l1)
 # print(ans)
-   
+  
 # def sm(x,y):
 #     return x+y
     
-# ans=functools.reduce(sm,l1)
+# ans=functools.reduce(sm,l)
 # print(ans)
    
 # l=["shivendra","yash","vansh","jatin"]
@@ -853,11 +854,29 @@ l1=[-1,2,3,-4,5,6,-7,8]
 # ans=functools.reduce(mxname,l)
 # print(ans)
 
+p=0
+# q=20
+
+# add=lambda x,y: x+y
+# print(add(p,q))
 
 
+# add=lambda x,y: print(x+y)
+# add(p,q)
 
+# check_numbers=lambda x: "even number" if(x%2==0) else "odd number"
+# print(check_numbers(p))
 
+# check_number=lambda x: "positive" if(x>0) else ("negative" if(x<0) else "zero")
+# print(check_number(p))
 
+# x=lambda: [i for i in range(5)]
+# print(x())
+
+# hl=4
+# hm=5
+# x=lambda p,q: [ [r for r in range(p) ] for i in range(q)]
+# print(list(x(hl,hm)))
 
 
   
