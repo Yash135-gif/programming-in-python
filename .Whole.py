@@ -1455,8 +1455,7 @@ d={"name":"yash","values":"yash"}
 # ans=filter(five,l)
 # print(list(ans))
 
-from functools import reduce
-l=[2,15,6,18,18,10]
+
 # def my_name(x,y):
 #     if(x==y):
 #         return  x
@@ -1478,11 +1477,69 @@ l=[2,15,6,18,18,10]
 # ans=reduce(big,l)
 # print(ans)
 
-def sm(x,y):
-    a=x+y
-    a=
+# def sm(x,y):
+#     return x+y
 
-     
+# ans=reduce(sm,l)
+# print(ans)
+
+
+
+# def mx(x,y):
+#     if(x==y):
+#         return x
+#     elif(x>y):
+#         return y
+#     else:
+#         return x
+# ans=reduce(mx,l)
+# print(ans)
+
+# from functools import reduce
+# l=[2,15,6,18,18,10]
+
+# def sm(x,y):
+#     return x+y
+# ans=reduce(sm,l)
+# print(ans)
+
+# lambda function 
+
+# check=lambda x: "even number" if(x%2==0) else "odd Number"
+# print(check(n))
+
+# check=lambda x: "Zero" if(x==0) else ("Even Number" if (x%2==0) else "negative number")
+# print(check(n))
+
+# s=1
+# k=4
+# kb=5
+# let=lambda x,z,y: [ [c for c in range(z,x+1)] for i in range(y)]
+# print(let(k,s,kb))
+
+# n="y"
+# show=lambda x: [ x for i in range(1,6)]
+# print(show(n))
+
+# s=1
+# e=5
+# hm=5
+# show=lambda x,y,z: [[ c for c in range(x,y+1)] for i in range(z)]
+# print(show(s,e,hm))
+
+# l=[]
+# a=0
+# for i in range(1,5):
+#     l[a]="y"
+#     a=a+1
+# print(l)
+
+for _ in range(0,5):
+    print("hi")
+
+
+
+
 
      
 

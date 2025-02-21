@@ -854,7 +854,7 @@ import functools
 # ans=functools.reduce(mxname,l)
 # print(ans)
 
-p=0
+# p=0
 # q=20
 
 # add=lambda x,y: x+y
@@ -877,6 +877,38 @@ p=0
 # hm=5
 # x=lambda p,q: [ [r for r in range(p) ] for i in range(q)]
 # print(list(x(hl,hm)))
+
+
+
+
+l=[1,2,3,4,5]
+# l1=[4,3,2,1,3]
+# res=list(map(lambda x: 'even' if(x%2==0) else "odd",l))
+# print(res)
+
+
+# l1=[1,2,3,4,5]
+# res=list(map(lambda x,y: x**y,l,l1))
+# print(res)
+
+
+# res=list(filter(lambda x: "positive" if x>0 ,l))
+# print(res)
+
+
+# l=["yash","jatin","mayank"]
+# res=list(map(lambda x: x.upper(),l))
+# print(res)
+
+# from functools import reduce
+# res=reduce(lambda x,y: x*y,l )
+# print(res)
+
+# show=lambda :[ [c for c in range(1,5)]  for i in range(4)]
+# print(show())
+
+# for _ in range(0,5):
+#     print("hi")
 
 
   
