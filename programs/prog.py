@@ -910,12 +910,50 @@ l=[1,2,3,4,5]
 # for _ in range(0,5):
 #     print("hi")
 
+# def new():
+#     return "yash"
+# x=new()
+# print(x)
+# print(type(x))
 
-  
+# def new():
+#     yield 5
+# x=new()
+# print(x)
 
+# print(x.__next__())
+# print(next(x))
 
+# def new():
+#     i=0
+#     n=10
+#     while(i<=10):
+#         yield i
+#         i=i+1
 
+    #    Generator 
 
+def even(n):
+    i=0
+    while(i<=n):
+        if(i%2==0):
+            yield i
+        i=i+1
+        
+        
+res=even(10)
+# print(res)
+# print(list(res))
+
+# x=next(res)
+# y=next(res)
+# z=next(res)
+# print(x,y,z)
+
+fve=next(res)
+print(fve)
+sve=next(res)
+print(sve)
 
 
 

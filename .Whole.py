@@ -1534,17 +1534,38 @@ d={"name":"yash","values":"yash"}
 #     a=a+1
 # print(l)
 
-for _ in range(0,5):
-    print("hi")
+# for _ in range(0,5):
+#     print("hi")
 
 
+l1=[1,2,3,4,5]
 
+# ans=list(map(lambda x: x**2,l))
+# print(ans)
 
+# ans=map(lambda x: "even" if x%2==0 else "odd",l)
+# print(list(ans))
 
-     
+# ans=map(lambda x,y: x**y,l,l1)
+# print(list(ans))
 
+l=[1,2,3,4,5]
+# ans=filter(lambda a: a%2==0,l)    
+# print(list(ans))
 
+# from functools import reduce
+# ans=reduce(lambda x,y: x if x>y else y,l)
+# print(ans)
 
+# show=lambda : [ [c for c in range(1,5)] for _ in range(4)] 
+# print(show())
 
+# p=[]
+# for _ in range(5):
+#     p.append("hii")
+# print(p)
 
+# l=["Ironman","captain america","Thor","an" ,"An"]
+# let=filter(lambda x: x[0]=="a" or x[0]=="A",l)
+# print(list(let))
 
