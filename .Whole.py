@@ -1569,3 +1569,62 @@ l=[1,2,3,4,5]
 # let=filter(lambda x: x[0]=="a" or x[0]=="A",l)
 # print(list(let))
 
+# def even(x):
+#     if(x%2==0):
+#         return x
+# ans=filter(even,l)
+# print(list(ans))
+
+# from functools import reduce
+
+# def b(x,y):
+#     if(x==y):
+#         return x
+#     elif(x>y):
+#         return x
+#     else:
+#         return y
+# ans=reduce(b,l)
+# print(ans)
+
+# def s(x,y):
+#     return x+y
+# ans=reduce(s,l)
+# print(ans)
+
+# def new():
+#     yield 10
+# print(new())
+# print(list(new()))
+# x=new()
+# print(x.__next__())
+# print(next(x))
+
+def even():
+    i=0
+    while(i<=10):
+        if(i%2==0):
+            yield i
+        i=i+1
+
+x=even()
+# print(type(x))
+# print(next(x))
+# print((list(x)))
+# print(x.__next__())
+# print(next(x))
+# print((list(x)))
+# y=next(x)
+# # print(y)
+# for i in range(y):
+#     print(i)
+# z=next(x)
+# for i in range(z):
+#     print(i)
+# for i in range(1,1):
+#     print(i)
+# print(list(x))
+# print(list(x))
+# for i in x:
+#     print(i)
+

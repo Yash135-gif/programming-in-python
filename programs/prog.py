@@ -933,15 +933,15 @@ l=[1,2,3,4,5]
 
     #    Generator 
 
-def even(n):
-    i=0
-    while(i<=n):
-        if(i%2==0):
-            yield i
-        i=i+1
+# def even(n):
+#     i=0
+#     while(i<=n):
+#         if(i%2==0):
+#             yield i
+#         i=i+1
         
         
-res=even(10)
+# res=even(10)
 # print(res)
 # print(list(res))
 
@@ -950,10 +950,10 @@ res=even(10)
 # z=next(res)
 # print(x,y,z)
 
-fve=next(res)
-print(fve)
-sve=next(res)
-print(sve)
+# fve=next(res)
+# print(fve)
+# sve=next(res)
+# print(sve)
 
 
 
