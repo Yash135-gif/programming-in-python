@@ -1600,14 +1600,14 @@ l=[1,2,3,4,5]
 # print(x.__next__())
 # print(next(x))
 
-def even():
-    i=0
-    while(i<=10):
-        if(i%2==0):
-            yield i
-        i=i+1
+# def even():
+#     i=0
+#     while(i<=10):
+#         if(i%2==0):
+#             yield i
+#         i=i+1
 
-x=even()
+# x=even()
 # print(type(x))
 # print(next(x))
 # print((list(x)))
@@ -1628,3 +1628,93 @@ x=even()
 # for i in x:
 #     print(i)
 
+# def outer_fun(fun1):
+#     def inner_fun():
+#         print("Before Modification")
+#         fun1()
+#         print("After modification")
+#     return inner_fun()
+
+# def fun():
+#     print("this is from main function")
+
+# res=outer_fun(fun)
+# res()
+
+# def outer(fun1):
+#     def inner():
+#         print("before modification")
+#         fun1()
+#         print("after modification")
+#     return inner
+
+# def fun():
+#     print("this is the main fuction")
+
+# res=outer(fun)
+# res()
+
+# def outer(fun1):
+#     def inner(x,y,z):
+#         x=x+5
+#         y=y+5
+#         z=z+5
+#         a=fun1(x,y,z)
+#         print(a)
+#     return inner
+
+
+# def fun(x,y,z):
+#     return x,y,z
+
+# res=outer(fun)
+# x=1
+# y=2
+# z=3
+# res(x,y,z)
+
+# print(x)
+# print(y)
+# print(z)
+
+# def outer_fun(fun1):
+#     def inner_fun(x,y,z):
+#         x=x+5
+#         y=y+5
+#         z=z+5
+#         a=fun1(x,y,z)
+#         print(a)
+#     return inner_fun
+
+
+# def fun(x,y,z):
+#     return x+y+z
+
+# x=1
+# y=2
+# z=3
+
+# res=outer_fun(fun)
+# res(x,y,z)
+
+# def outer(fun1):
+#     def inner(x,y,z):
+#         x=x+10
+#         y=y+10
+#         z=z+10
+#         a=fun1(x,y,z)
+#         print(a)
+#     return inner
+
+# def fun(x,y,z):
+#     return x+y+z
+
+# x=1
+# y=2
+# z=3
+# res=outer(fun)
+# res(x,y,z)
+
+# print(x)
+# print(y)
+# print(z)
