@@ -1718,3 +1718,79 @@ l=[1,2,3,4,5]
 # print(x)
 # print(y)
 # print(z)
+
+# def outer_fun(fuc1):
+#     def inner_fun(name):
+#         Print("this is before main function running")
+#         result=fuc1(name)
+#         return result.upper()
+#     return inner_fun
+
+
+# def fun(name):
+#     print(f'Hello {name}')
+
+# fun=outer_fun(fun)
+# fun("yash")
+
+# def outer_fun(fun):
+#     def inner_fun(name):
+#         print("before")
+#         print(fun(name))        
+#         return a.upper()
+#     return inner_fun
+
+# def fun(name):
+#     print(f'Name: {name}')
+
+# fun=outer_fun(fun)
+# print(fun("yash"))
+
+
+# def outer(fun1):
+#     def inner(name):
+#         a=fun1(name)
+#         a.upper()
+#         return a
+#     return inner
+
+# def fun(name):
+#     print(f'Name: {name}')
+
+# fun=outer(fun)
+# print(fun("yash"))
+
+# def outer(fuc1):
+#     def inner(name):
+#         print("before")
+#         a=fuc1(name)
+#         return a.upper()
+#     return inner
+
+# def fun(name):
+#     return f'Hello {name}'
+
+# fun=outer(fun)
+# print(fun("yash"))
+
+# def outer(fun1):
+#     def inner(name):
+#         print("before")
+#         a=fun1(name)
+#         return a.upper()
+        
+#     return inner
+
+
+# def fun(name):
+#     return f'Hello {name}'
+
+# fun=outer(fun)
+# print(fun("yash"))
+
+
+
+
+
+
+
