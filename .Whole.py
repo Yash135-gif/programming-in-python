@@ -1788,6 +1788,45 @@ l=[1,2,3,4,5]
 # fun=outer(fun)
 # print(fun("yash"))
 
+# class Student:
+#     '''Student details'''
+#     def __init__(self):
+#         print("constructor called")
+#         print("self:", id(self))
+  
+# print(dir(Student))
+# print(Student.__doc__)
+
+# print(dir(Student))
+# print(Student.__doc__)
+
+# obj=Student()
+# print(id(obj))
+
+class Student:
+    '''Student Details'''
+    def __init__(self,name,age,marks):
+        self.x=name
+        self.y=age
+        self.z=marks
+        print(self.x)
+        print(self.y)
+        print(self.z)
+
+ 
+        
+
+obj=Student("yash",20,90)
+# print(obj.x)
+# print(obj.y)
+# print(obj.z)
+obj.__init__("yash",20,90)
+
+
+
+
+
+
 
 
 
