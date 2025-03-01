@@ -1803,24 +1803,85 @@ l=[1,2,3,4,5]
 # obj=Student()
 # print(id(obj))
 
-class Student:
-    '''Student Details'''
-    def __init__(self,name,age,marks):
-        self.x=name
-        self.y=age
-        self.z=marks
-        print(self.x)
-        print(self.y)
-        print(self.z)
+# class Student:
+#     '''Student Details'''
+#     def __init__(self,name,age,marks):
+#         self.x=name
+#         self.y=age
+#         self.z=marks
+#         print(self.x)
+#         print(self.y)
+#         print(self.z)
 
  
         
 
-obj=Student("yash",20,90)
+# obj=Student("yash",20,90)
 # print(obj.x)
 # print(obj.y)
 # print(obj.z)
-obj.__init__("yash",20,90)
+# obj.__init__("yash",20,90)
+
+# class Students:
+#     def __init__(self,name,clas,subject):
+#         self.x=name
+#         self.y=clas
+#         self.z=subject
+
+#     def show(self):
+#         print(self.x,self.y,self.z)
+
+# obj1=Students("yash1",10,"chemistry")
+# obj2=Students("yash2","ten","Physics")
+# obj3=Students("yash1","dus","English")
+# obj1.show()
+# obj2.show()
+# obj3.show()
+
+# class Students:
+#     def __init__(self,name,clas,subject):
+#         self.x=name
+#         self.y=clas
+#         self.z=subject
+
+#     def city(self,city):
+#         self.c=city
+     
+#     def show(self):
+#         print(self.x,self.y,self.z,self.c)
+
+# obj=Students("yash",10,"chemistry")
+# obj.city("Bhopal")
+# obj.show()
+
+class Students:
+    def __init__(self,name,clas,subject):
+        self.x=name
+        self.y=clas
+        self.z=subject
+    def cityname(self,city):
+        self.c=city
+    def show(self):
+        print(self.x,self.y,self.z,self.c,self.schoolname)
+
+obj=Students("Yash",10,"Chemistry")
+obj.cityname("Bhopal")
+obj.schoolname="STJP"
+obj.show()
+ 
+# class Checking:
+#    def __init__(self):
+#       print("this is calling automatically")
+    
+# obj1=Checking()
+
+
+
+
+
+
+
+
 
 
 

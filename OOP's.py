@@ -77,22 +77,70 @@
 
 #   IMP 
  
-class Sports:
-    def __init__(self,name1,name2,name3):
-        self.a=name1
-        self.b=name2
-        self.c=name3
+# class Sports:
+#     def __init__(self,name1,name2,name3):
+#         self.a=name1
+#         self.b=name2
+#         self.c=name3
 
-    def add_player(self,name4,name5):
-        self.d=name4
-        self.e=name5
-    def display(self):
-        print(self.a,self.b,self.c,self.d,self.e,self.manager)
+#     def add_player(self,name4,name5):
+#         self.d=name4
+#         self.e=name5
+#     def display(self):
+#         print(self.a,self.b,self.c,self.d,self.e,self.manager)
 
-obj1=Sports("messi","abd","sky")
-obj1.add_player("alien","musiala")
-obj1.manager="Pep"
-obj1.display()
+# obj1=Sports("messi","abd","sky")
+# obj1.add_player("alien","musiala")
+# obj1.manager="Pep"
+# obj1.display()
+
+    # IMP 
+
+# class Student:
+#     school="SHSS"
+#     count=0
+#     def __init__(self,name,roll):
+#         self.x="name"
+#         self.y="roll"
+#         Student.s_code=123
+#         Student.count=Student.count+1
+
+#     def new(self):
+#         Student.city="Bhopal"
+
+#     def show(self):
+#         print(Student.school,Student.s_code,Student.city,Student.subject)
+
+    
+# obj=Student("yash",21)
+# Student.subject="pcm"
+
+# print(Student.count)
+# print()
+# obj.show()
+
+# print(Student.school)
+
+class Party:
+    person1="yash"
+    def __init__(self,person2,person3):
+        self.p2=person2
+        self.p3=person3
+        Party.person4="John Cena"
+
+    def add_person(self,person5):
+        self.p5=person5
+        print(self.p5)
+
+    def show(self):
+        print(Party.person1,self.p2,self.p3,Party.person4,self.p5,Party.person6)
+
+obj=Party("Messi","musiala")
+obj.add_person("Rancho")
+Party.person6="don't know"
+obj.show()
+print(Party.person6)
+
 
 
 
