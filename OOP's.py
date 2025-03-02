@@ -121,25 +121,25 @@
 
 # print(Student.school)
 
-class Party:
-    person1="yash"
-    def __init__(self,person2,person3):
-        self.p2=person2
-        self.p3=person3
-        Party.person4="John Cena"
+# class Party:
+#     person1="yash"
+#     def __init__(self,person2,person3):
+#         self.p2=person2
+#         self.p3=person3
+#         Party.person4="John Cena"
 
-    def add_person(self,person5):
-        self.p5=person5
-        print(self.p5)
+#     def add_person(self,person5):
+#         self.p5=person5
+#         print(self.p5)
 
-    def show(self):
-        print(Party.person1,self.p2,self.p3,Party.person4,self.p5,Party.person6)
+#     def show(self):
+#         print(Party.person1,self.p2,self.p3,Party.person4,self.p5,Party.person6)
 
-obj=Party("Messi","musiala")
-obj.add_person("Rancho")
-Party.person6="don't know"
-obj.show()
-print(Party.person6)
+# obj=Party("Messi","musiala")
+# obj.add_person("Rancho")
+# Party.person6="don't know"
+# obj.show()
+# print(Party.person6)
 
 
 
