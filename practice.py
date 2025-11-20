@@ -16,6 +16,7 @@
 l1=[10,20,"neeraj"]
 l2=[10,20,"neeraj"]
 a="yash the coder"
+
 # print(l1)
 # print(type(l1))
 # print(id(l1),id(l2))
