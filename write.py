@@ -346,3 +346,127 @@ b={3,6,7,8}
 # else:
 #     print('odd')
 
+# while loop
+
+# n=int(input("enter a number: "))
+# i=1
+# while i<=n:
+#     print(i)
+#     i=i+1
+
+# with ,
+
+# n=int(input('enter a number: '))
+# i=1
+# while i<=n:
+#     if i<n:
+#         print(i,end=',')
+
+#     else:
+#         print(i)
+
+#     i=i+1
+
+# n even numbers
+
+# n=int(input("enter a number: "))
+# i=1
+# while i<=n:
+#     if i<n:
+#         print(2*i,end=',')
+#     else:
+#         print(2*i)
+#     i=i+1
+
+# Table
+
+# n=int(input('enter a number: '))
+# i=1
+# while i<=10:
+#     print(f'{n} * {i} = {n*i}')
+#     i=i+1
+
+# armstrong
+
+# n=int(input('enter: '))
+# x=y=n
+# sum=0
+# digit=0
+# while n>0:
+#     digit=digit+1
+#     n=n//10
+
+# while x>0:
+#     last_digit=x%10
+#     sum=sum+last_digit**digit
+#     x=x//10
+
+# if y==sum:
+#     print('armstrong')
+# else:
+#     print('not')
+
+# armstrong
+
+# n=int(input('enter a number: '))
+# x=y=n
+# digit=0
+# sum=0
+# while x>0:
+#     digit=digit+1
+#     x=x//10
+# while y>0:
+#     last_digit=y%10
+#     sum=sum+last_digit**digit
+#     y=y//10
+# if sum==n:
+#     print('armstrong')
+# else:
+#     print('not')
+
+# Finding average
+
+# def find_average(lst):
+#     if not lst:
+#         return 'please enter list with some data'
+#     total=sum(lst)
+#     average=total/len(lst)
+#     return average
+
+# l=[1,2]
+# print(find_average(l))
+
+# Finding average 
+
+# def find_average(lst):
+#     if not lst:
+#         return 'please enter list with some data'
+#     sum=0
+#     for num in lst:
+#         sum=sum+num
+#     average=sum/len(lst)
+#     return average
+
+# l=[5,4]
+# print(find_average(l))
+
+# calculator
+
+# def calculator(a,b,cal):
+#     if cal=='add':
+#         return a+b
+#     elif cal=='sub':
+#         return a-b
+#     elif cal=='multiply':
+#         return a*b
+#     elif cal=='divide':
+#         return a/b
+#     else:
+#         return 'enter valid cal'
+# print(calculator(2,8,'add'))
+
+
+
+
+
+
