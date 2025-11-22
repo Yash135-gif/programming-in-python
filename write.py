@@ -465,8 +465,141 @@ b={3,6,7,8}
 #         return 'enter valid cal'
 # print(calculator(2,8,'add'))
 
+# To-Do List
 
+# todo=[]
+# while True:
+#    print(' 1. Add Task \n 2. view Tasks \n 3. Exit')
+#    choice=input('enter what you want to do:')
 
+#    if choice=='1':
+#       task=input('enter task: ')
+#       todo.append(task)
 
+#    elif choice=='2':
+#       print('\n Your Tasks ')
+#       for i,t in enumerate(todo,1):
+#          print(f'{i}. {t}')
 
+#    elif choice=='3':
+#       break
+   
+#    else:
+#       print('Invalid Choice')
+
+# map higher order function
+
+# numbers=[1,2,3,4]
+
+# def square(num):
+#     return num*num
+
+# var=list(map(square,numbers))
+# print(var)
+
+# adding two different lists with map function
+
+# l=[1,2,3,4]
+# ll=[1,2]
+
+# def ad(x,y):
+#     return x+y
+
+# var=list(map(ad,l,ll))
+# print(var)
+
+# sabsa chota iterables tak chalega
+
+# l=[1,2,3,4,5]
+# ll=[1,2,3,4,5]
+# lll=[1,2]
+
+# def ad(x,y,z):
+#     return x+y+z
+
+# res=list(map(ad,l,ll,lll))
+# print(res)
+
+# filter higher order function ka use
+
+# l=[1,2,3,4,5]
+
+# def greater_than_3(num):
+#     return num>3
+
+# res=list(filter(greater_than_3,l))
+# print(res)
+
+# from functools import reduce
+
+# Max-digit with reduce
+
+# l=[1,3,5,3,3]
+
+# def max_digit(x,y):
+#     if x>y:
+#         return x
+#     else:
+#         return y
+    
+# print(reduce(max_digit,l))
+
+# Adding string
+
+# l=['python','is','fun']
+
+# def show(a,b):
+#     return a+' '+b
+
+# res=reduce(show,l)
+# print(res)
+
+# lambda function
+
+# add with lambda
+
+# add=lambda x,y: x+y
+# print(add(2,3))
+
+# finding square with lambda
+
+# square=lambda x: x*x
+# print(square(5))
+
+# filter with lambda
+
+# l=[1,2,3,4,5,6]
+# res=list(filter(lambda x: x%2==0,l))
+# print(res)
+
+# reduce with lambda
+
+# l=[1,3,5,3,6,6]
+# res=reduce(lambda x,y: x if x>y else y,l)
+# print(res)
+
+# res=list(filter(lambda x: x>2,l))
+# print(res)
+
+# putting n numbers in a list
+
+# def new(n):
+#     l=[]
+#     for i in range(1,n+1):
+#         l.append(i)
+#     return l
+
+# print(new(10))
+
+# def my_generator(n):
+#     for i in range(n):
+#         yield i
+
+# res=my_generator(10)
+# print(next(res))
+# print('hello')
+# print(next(res))
+# print('hii')
+# print(next(res))
+# print(next(res))
 
