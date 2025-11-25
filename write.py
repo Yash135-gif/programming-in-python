@@ -603,3 +603,121 @@ b={3,6,7,8}
 # print(next(res))
 # print(next(res))
 
+# checking what floor does
+
+# x=123
+# # x=x/10
+# x=x//10
+# print(x)
+
+# checking if a number is palindrome with while loop
+
+# n=int(input('enter a number: '))
+# x=n
+# rev_num=0
+# while x>0:
+#     rev_num=rev_num*10+x%10
+#     x=x//10
+
+# if n==rev_num:
+#     print("palindrome")
+# else:
+#     print('not')
+
+# for loop
+
+# n=input('enter your name')
+# for i in n:
+#     print(i)
+
+# changing alphabets
+
+# n=input('enter a string: ')
+# for i in n:
+#     x=ord(i)+5
+#     y=chr(x)
+#     print(y,end='')
+
+# printing string in reverse
+
+# s='string'
+# print(s[::-1])
+
+# checking if a string is palindrome
+
+# n=input('enter a string: ')
+# if n==n[::-1]:
+#     print('palindrome')
+# else:
+#     print('not')
+
+# range
+
+# x=range(1,11)
+# print(list(x))
+# print(tuple(x))
+
+# trying range by putting wrong values
+
+# x=range(-1,-11,1)
+# print(x)
+# print(list(x))
+
+# concatination of string
+
+# s1='yash'
+# s2='gupta'
+# print(s1+ " "+s2)
+
+# reversing the string
+
+# n='python'
+# l=len(n)
+# x=''
+# for i in range(l-1,-1,-1):
+#     x=x+n[i]
+
+# print(x)
+
+# checking palindrome with for loop
+
+# n=input('enter any string:')
+# l=len(n)
+# x=''
+# for i in range(l-1,-1,-1):
+#     x=x+n[i]
+# if x==n:
+#     print('palindrome')
+# else:
+#     print('not')
+
+# s='yash'
+# print(s*5)
+
+# n=4
+# i=1
+# while i<=4:
+#     print('*'*i)
+#     i=i+1
+
+# checking global and local variable
+
+# x=10
+# def myfun():
+#     global y
+#     y=20
+#     pass
+
+# myfun()
+# print(y)
+
+# using global() function
+
+# x=10
+# def show():
+#     print(globals()['x'])
+#     x=20
+#     print(x)
+
+# show()
+# print(x)

@@ -84,8 +84,98 @@
 
 # show('hey')
 
+# making class
 
+# class MyClass:
+#     '''this is my class'''
 
+# Magic methods in class
 
+# print(dir(MyClass))
+# print(dir())
+# print(__name__)
 
+# print(MyClass.__doc__)
+# print(MyClass.__dict__)
+# print(MyClass.__module__)
+
+# print(id(MyClass))
+# obj1=MyClass
+# obj2=MyClass
+# obj3=MyClass
+# print(id(obj1),id(obj2),id(obj3))
+
+# class Students:
+#     '''student data'''
+#     def __init__(self):
+#         print('external constructor call')
+#         print(id(self))
+
+# print(id(Students))
+# obj1=Students()
+# obj2=Students()
+# print(id(obj1),id(obj2))
+   
+# class student:
+#     '''details for students'''
+#     def __init__(self):
+#         print("external constructor")
+#         print(id(self))
     
+# obj1=student()
+# print(id(obj1))
+
+# class student:
+#     def __init__(self):
+#         print("external constructor")
+
+# obj=student()
+# obj.__init__()
+
+# class student:
+#     def __init__(self):
+#         print("external constructor 1")
+
+#     def __init__(self):
+#         print('external constructor 2')
+    
+#     def __init__(self):
+#         print("external constructor 3")
+    
+# obj=student()
+
+# class student:
+#     def __init__(self,name,age):
+#         self.n=name
+#         self.a=age
+# obj1=student('yash',21)
+# print(obj1.n)
+# print(obj1.a)
+# obj2=student('raj',22)
+# print(obj2.n)
+# print(obj2.a)
+
+# def new():
+#     global x
+#     x=10
+#     print(x)
+# new()
+# print(x)
+
+# class student:
+#     school='shss'
+#     def __init__(self,name):
+#         self.n=name
+#         print(self.n)
+         
+#     def addnew(self,contact):
+#         self.c=contact
+#         print(self.n,self.c,self.school_code)    
+ 
+# obj=student('yash')
+# obj.school_code=101
+# obj.addnew(12345)
+# print(obj.n,obj.c,obj.school_code)
+
+
+ 
