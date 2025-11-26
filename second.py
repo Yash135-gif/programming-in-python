@@ -177,5 +177,66 @@
 # obj.addnew(12345)
 # print(obj.n,obj.c,obj.school_code)
 
+# instance method
 
- 
+# class student:
+#     def __init__(self,name,clas):
+#         self.n=name
+#         self.c=clas
+#     def display(self):
+#         print(f'{self.n} is name and {self.c} is class')
+        
+# obj=student('yash','BCA')
+# obj.display()
+
+# class student:
+#     def __init__(self,balance):
+#         self.balance=balance
+    
+#     def deposit(self,amount):
+#         self.balance=self.balance+amount
+
+#     def withdraw(self,amount):
+#         if amount<=self.balance:
+#             self.balance=self.balance-amount
+#             return True
+#         return False
+
+# class method ka example
+
+# class car:
+#     wheels=4
+    
+#     @classmethod
+#     def change_wheels(cls,count):
+#         cls.wheels=count
+
+# print(car.wheels)
+# car.change_wheels(6)
+# print(car.wheels)
+
+# staticmethod
+
+# class student:
+#     def __init__(self):
+#         pass
+
+#     @staticmethod
+#     def add(x,y):
+#         return x+y
+    
+# s=student()
+# print(s.add(10,20))
+
+# checking if a marks is valid with staticmethod
+
+# class student:
+#     @staticmethod
+#     def check(marks):
+#         return 0<=marks<=100
+    
+# print(student.check(88))
+# s=student()
+# print(s.check(101))   
+
+
