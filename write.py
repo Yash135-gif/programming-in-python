@@ -721,3 +721,47 @@ b={3,6,7,8}
 
 # show()
 # print(x)
+
+# factorial
+
+# def fact(num):
+#     result=1
+#     while num>=1:
+#         result=result*num
+#         num=num-1
+#     return result
+
+# print(fact(5))
+
+# def add_sub(a,b):
+#     add=a+b
+#     sub=a-b
+#     return add,sub
+
+# x,y=add_sub(100,50)
+# print('The addition is: ',x)
+# print('the subraction is: ',y)
+
+# my_list=[10,20,30,40]
+# def sqr(n):
+#     return n*n
+
+# x=map(sqr,my_list)
+# print(x)
+# print(list(x))
+
+# my_str='Neeraj'
+# def add(s):
+#     ss=ord(s)
+#     return ss
+
+# result=list(map(add,my_str))
+# print(result)
+
+# def change(s):
+#     x=ord(s)
+#     return chr(x+5)
+
+# result=list(map(change,my_str))
+# print(result)
+
