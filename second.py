@@ -239,6 +239,199 @@
 # s=student()
 # print(s.check(101))   
 
+# question 1
 
+# class person:
+#     def __init__(self,name,age):
+#         self.name=name
+#         self.age=age
+#     def show_details(self):
+#         print(f'Name: {self.name} Age: {self.age}')
 
+# p1=person('yash',21)
+# p1.show_details()
+
+# question 2
+
+# import math
+
+# class circle:
+#     def __init__(self,radius):
+#         self.radius=radius
+    
+#     def area(self):
+#         return math.pi*self.radius*self.radius
+    
+#     def circumference(self):
+#         return 2*math.pi*self.radius
+
+# c=circle(4)
+# print("Area: ",round(c.area(),2))
+# print("circumference: ",round(c.circumference(),2))
+    
+# question 3
+
+# class student:
+#     school_name='SJPCS'
+
+#     def __init__(self,name,roll):
+#         self.name=name
+#         self.roll=roll
+
+#     def show(self):
+#         print(self.name,self.roll,student.school_name)
+
+# c1=student('yash',101)
+# c2=student('yash2',102)
+
+# c1.show()
+# c2.show()
+       
+# question 4
+
+# class BankAccount:
+#     def __init__(self,owner,balance):
+#         self.owner=owner
+#         self.balance=balance
+
+#     def deposit(self,amount):
+#         self.balance=self.balance+amount
+#         print(f"deposited = {amount} successfully, New balance = {self.balance}")
+
+#     def withdraw(self,amount):
+#         if amount<=self.balance:
+#             self.balance=self.balance-amount
+#             print(f'your withdrawal of {amount} is successful, Remaining Balance = {self.balance}')
+#         else:
+#             print(f'the bank balance is not sufficient for withdrawal of your amount')
+    
+#     def check_balance(self):
+#         print(f'current balance = {self.balance}')
+
+# acc=BankAccount('yash',500)
+# acc.withdraw(200)
+# acc.deposit(400)
+# acc.check_balance()
+
+# question 5
+
+# class Employee:
+#     def __init__(self,name,salary):
+#         self.name=name
+#         self.salary=salary
+    
+#     def get_tax(self):
+#         print(f'Employee = {self.name}, Tax = {self.salary*0.1}')
+
+# e1=Employee('yash',50000)
+# e1.get_tax()
+
+# question 6
+
+# class Animal:
+#     def speak(self):
+#         print('i am an animal')
+# class Dog(Animal):
+#     def speak(self):
+#         print('woof')
+# class Cat(Animal):
+#     def speak(self):
+#         print('meow')
+
+# a=Animal()
+# d=Dog()
+# c=Cat()
+
+# a.speak()
+# d.speak()
+# c.speak()
+
+# class ShoppingCart:
+#     def __init__(self):
+#         self.items={}
+
+#     def add_item(self,item,price):
+#         self.items[item]=price
+#         print(f'Added = {item} - {price}')
+    
+#     def remove_item(self,item):
+#         if item in self.items:
+#             del self.items[item]
+#             print(f'Removed item = {item}')
+#         else:
+#             print(f'given item {item} not found in remove_item')
+    
+#     def get_total(self):
+#         return sum(self.items.values())
+    
+# cart=ShoppingCart()
+# cart.add_item('shoes',1200)
+# cart.add_item('shirt',800)
+# print('Total',cart.get_total())
+
+# question 8
+
+# class Library:
+#     def __init__(self):
+#         self.books=[]
+    
+#     def add_book(self,title):
+#         self.books.append(title)
+#         print(f'Added = {title}')
+
+#     def remove_book(self,title):
+#         if title in self.books:
+#             self.books.remove(title)
+#             print(f'book {title} removed')
+#         else:
+#             print(f'Given book {title} not found')
+        
+
+#     def display_books(self):
+#         print(f'Books in library = {self.books}')
+
+# lib=Library()
+# lib.add_book('physics')
+# lib.add_book('chemistry')
+# lib.display_books()
+
+# question 9
+
+# class Math:
+#     @staticmethod
+#     def factorial(n):
+#         result=1
+#         for i in range(1,n+1):
+#             result=result*i
+#         return result
+    
+#     @classmethod
+#     def square(cls,x):
+#         return x*x
+
+# print(Math.factorial(5))
+# print(Math.square(2))
+
+# m=Math()
+# print(m.factorial(4))
+# print(m.square(4))
+
+# question 10
+
+# class Teacher:
+#     def teach(self):
+#         print('Teaching..')
+
+# class Student:
+#     def study(self):
+#         print('Studing..')
+
+# class TeachingAssistant(Teacher,Student):
+#     def assist(self):
+#         print('Assisting Teacher and helping students.')
+
+# ta=TeachingAssistant()
+# ta.teach()
+# ta.study()
+# ta.assist()
 
