@@ -765,3 +765,11 @@ b={3,6,7,8}
 # result=list(map(change,my_str))
 # print(result)
 
+# s='Neeraj'
+# def do(ss):
+#     x=ord(ss)
+#     return chr(x+5)
+
+# result=list(map(do,s))
+# print(result)
+
