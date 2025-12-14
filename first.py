@@ -8,8 +8,8 @@
 # a=20
 # b=10
 
-# def add(p,q):
-#     return p+q
+def add(p,q):
+    return p+q
 
-# def sub(p,q):
-#     return p-q
+def sub(p,q):
+    return p-q
